@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="507.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="510.0" prefWidth="720.0" style="-fx-background-color: #4D4D4D;">
+         <children>
+            <AnchorPane layoutY="431.0" prefHeight="81.0" prefWidth="720.0" style="-fx-background-color: #86318C;">
+               <children>
+                  <Button layoutX="338.0" layoutY="19.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="44.0" style="-fx-border-radius: 180; -fx-background-color: none; -fx-border-color: black;" text="=" textAlignment="CENTER" />
+                  <Button layoutX="397.0" layoutY="26.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="28.0" style="-fx-border-radius: 180; -fx-background-color: none; -fx-border-color: black;" text="&gt;" textAlignment="CENTER" />
+                  <Button layoutX="289.0" layoutY="26.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="28.0" style="-fx-border-radius: 180; -fx-background-color: none; -fx-border-color: black;" text="&lt;" textAlignment="CENTER" />
+                  <Slider layoutX="536.0" layoutY="34.0" />
+                  <Label layoutX="24.0" layoutY="18.0" prefHeight="17.0" prefWidth="146.0" text="Nazwa piosenki" />
+                  <Label layoutX="24.0" layoutY="33.0" prefHeight="17.0" prefWidth="80.0" text="Wykonawca" />
+                  <Button layoutX="338.0" layoutY="20.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="44.0" style="-fx-border-radius: 180; -fx-background-color: none; -fx-border-color: black;" text="&gt;&gt;" textAlignment="CENTER" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="200.0" prefWidth="146.0" style="-fx-background-color: #86318C;">
+               <children>
+                  <ImageView fitHeight="143.0" fitWidth="146.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label layoutX="7.0" layoutY="138.0" prefHeight="55.0" prefWidth="131.0" text="Label" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="198.0" layoutY="14.0" prefHeight="200.0" prefWidth="146.0" style="-fx-background-color: #86318C;">
+               <children>
+                  <ImageView fitHeight="143.0" fitWidth="146.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label layoutX="7.0" layoutY="138.0" prefHeight="55.0" prefWidth="131.0" text="Label" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="380.0" layoutY="14.0" prefHeight="200.0" prefWidth="146.0" style="-fx-background-color: #86318C;">
+               <children>
+                  <ImageView fitHeight="143.0" fitWidth="146.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label layoutX="7.0" layoutY="138.0" prefHeight="55.0" prefWidth="131.0" text="Label" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="560.0" layoutY="14.0" prefHeight="200.0" prefWidth="146.0" style="-fx-background-color: #86318C;">
+               <children>
+                  <ImageView fitHeight="143.0" fitWidth="146.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label layoutX="7.0" layoutY="138.0" prefHeight="55.0" prefWidth="131.0" text="Label" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="14.0" layoutY="222.0" prefHeight="200.0" prefWidth="146.0" style="-fx-background-color: #86318C;">
+               <children>
+                  <ImageView fitHeight="143.0" fitWidth="146.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label layoutX="7.0" layoutY="138.0" prefHeight="55.0" prefWidth="131.0" text="Label" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="198.0" layoutY="222.0" prefHeight="200.0" prefWidth="146.0" style="-fx-background-color: #86318C;">
+               <children>
+                  <ImageView fitHeight="143.0" fitWidth="146.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label layoutX="7.0" layoutY="138.0" prefHeight="55.0" prefWidth="131.0" text="Label" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="380.0" layoutY="222.0" prefHeight="200.0" prefWidth="146.0" style="-fx-background-color: #86318C;">
+               <children>
+                  <ImageView fitHeight="143.0" fitWidth="146.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label layoutX="7.0" layoutY="138.0" prefHeight="55.0" prefWidth="131.0" text="Label" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="560.0" layoutY="222.0" prefHeight="200.0" prefWidth="146.0" style="-fx-background-color: #86318C;">
+               <children>
+                  <ImageView fitHeight="143.0" fitWidth="146.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label layoutX="7.0" layoutY="138.0" prefHeight="55.0" prefWidth="131.0" text="Label" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
